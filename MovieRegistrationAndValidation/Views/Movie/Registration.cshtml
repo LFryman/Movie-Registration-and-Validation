@@ -1,0 +1,32 @@
+﻿
+@{
+    ViewData["Title"] = "Registration";
+}
+
+@model Movie
+
+<h2>Registration</h2>
+
+@Html.ValidationSummary()
+
+<form action="../Movie/Summary" method="post">
+    <input type="text" name="ID" value="@Model.ID" placeholder="ID" /> <br />
+
+    <input type="text" name="Title" value="@Model.Title" placeholder="Title" /> <br />
+
+
+    Genre: @Html.DropDownListFor(m => m.Genre, new SelectList(Enum.GetValues(typeof(Genre)))) <br />
+
+    <input min="1880" max="@DateTime.Today.Year" type="number" name="Year" placeholder="Year" /> <br />
+
+    @Html.ValidationMessageFor(m => m.Actors)
+    <input type="text" list="actors" name="Actors" placeholder="Actor" /> <br />
+    <input type="text" list="actors" name="Actors" placeholder="Actor" /> <br />
+    <input type="text" list="actors" name="Actors" placeholder="Actor" /> <br />
+
+    @Html.ValidationMessageFor(m => m.Directors)
+    <input type="text" list="director" name="Directors" placeholder="Directors" /> <br />
+    <input type="text" list="director" name="Directors" placeholder="Directors" /> <br />
+    <input type="submit" />
+</form>
+
