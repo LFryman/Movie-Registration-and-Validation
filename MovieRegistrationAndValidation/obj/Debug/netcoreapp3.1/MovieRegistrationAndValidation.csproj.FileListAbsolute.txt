@@ -110,3 +110,4 @@ C:\Users\Zach\source\repos\MovieRegistrationAndValidation\MovieRegistrationAndVa
 C:\Users\Zach\source\repos\MovieRegistrationAndValidation\MovieRegistrationAndValidation\obj\Debug\netcoreapp3.1\MovieRegistrationAndValidation.genruntimeconfig.cache
 C:\Users\Zach\source\repos\MovieRegistrationAndValidation\MovieRegistrationAndValidation\obj\Debug\netcoreapp3.1\Razor\Views\Movie\Registration.cshtml.g.cs
 C:\Users\Zach\source\repos\MovieRegistrationAndValidation\MovieRegistrationAndValidation\obj\Debug\netcoreapp3.1\Razor\Views\Movie\Summary.cshtml.g.cs
+C:\Users\Zach\source\repos\MovieRegistrationAndValidation\MovieRegistrationAndValidation\obj\Debug\netcoreapp3.1\Razor\Views\Movie\SaveMovieToFavoritesList.cshtml.g.cs

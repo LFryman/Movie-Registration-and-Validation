@@ -1,0 +1,15 @@
+﻿
+@{
+    ViewData["Title"] = "SaveMovieToFavoritesList";
+}
+
+<h1>SaveMovieToFavoritesList</h1>
+
+@model List<Movie>
+
+@foreach(Movie movie in Model)
+{
+    <p>@movie.Title was made in the year @movie.Year</p>
+    <br /> 
+}
+

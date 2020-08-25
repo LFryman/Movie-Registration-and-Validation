@@ -9,7 +9,7 @@ namespace MovieRegistrationAndValidation.Models
     public class Movie
     {
         [Required]
-        [StringLength(50, MinimumLength = 3)]
+        [StringLength(12, MinimumLength = 3)]
         public string ID { get; set; }
         [Required]
         [StringLength(50, MinimumLength = 3)]
